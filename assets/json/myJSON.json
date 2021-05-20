@@ -1,12 +1,13 @@
 {
     "vinyl": [
         {
+            "id": 0,
             "artist": "Kendrick Lamar",
             "vinyl_name": "DAMN. (2 LP) Vinyl Record",
             "album_name": "DAMN.",
             "vinyl_cover": "assets/img/vinyl/damnVinyl.jpg",
             "album_cover": "assets/img/vinyl/damnCover.jpg",
-            "price": "16.90 €",
+            "price": "16.90",
             "overview": "Each record is protected within its record sleeve by a white vellum anti-dust sleeve. All items are shipped brand-new and unopened in original packaging. Every record is shipped in original factory-applied shrink wrap and has never been touched by human hands."
         },
         {
@@ -15,7 +16,7 @@
             "album_name": "CONTINUUM",
             "vinyl_cover": "assets/img/vinyl/886976863012.jpg",
             "album_cover": "assets/img/vinyl/LAX0UV-1556321479-1000x1000-1556321473-886976863012.jpg",
-            "price": "31,32 €",
+            "price": "31,32",
             "overview": "Each record is protected within its record sleeve by a white vellum anti-dust sleeve. All items are shipped brand-new and unopened in original packaging. Every record is shipped in original factory-applied shrink wrap and has never been touched by human hands."
         },
         {
@@ -24,7 +25,7 @@
             "album_name": "CALIFORNIA",
             "vinyl_cover": "assets/img/vinyl/819478021123X.jpg",
             "album_cover": "assets/img/vinyl/819478021123.jpg",
-            "price": "15,10 €",
+            "price": "15,10",
             "overview": "Each record is protected within its record sleeve by a white vellum anti-dust sleeve. All items are shipped brand-new and unopened in original packaging. Every record is shipped in original factory-applied shrink wrap and has never been touched by human hands."
         },
         {
@@ -33,7 +34,7 @@
             "album_name": "REANIMATION",
             "vinyl_cover": "assets/img/vinyl/093624920830X.jpg",
             "album_cover": "assets/img/vinyl/093624920830.jpg",
-            "price": "18,42 €",
+            "price": "18,42",
             "overview": "Each record is protected within its record sleeve by a white vellum anti-dust sleeve. All items are shipped brand-new and unopened in original packaging. Every record is shipped in original factory-applied shrink wrap and has never been touched by human hands."
         },
         {
@@ -42,7 +43,7 @@
             "album_name": "BACK TO BEYOND",
             "vinyl_cover": "assets/img/vinyl/739601734563.jpg",
             "album_cover": "assets/img/vinyl/UkofZ7_s185718-the-aliens-back-to-beyond.jpg",
-            "price": "26,53 €",
+            "price": "26,53",
             "overview": "Each record is protected within its record sleeve by a white vellum anti-dust sleeve. All items are shipped brand-new and unopened in original packaging. Every record is shipped in original factory-applied shrink wrap and has never been touched by human hands."
         },
         {
@@ -51,7 +52,7 @@
             "album_name": "WHEN IT'S ALL SAID AND DONE: TAKE TIME",
             "vinyl_cover": "assets/img/vinyl/194398806211.jpg",
             "album_cover": "assets/img/vinyl/eJA-oiqT91nOnLcz2nL._SY355_.jpg",
-            "price": "16,94 €",
+            "price": "16,94",
             "overview": "Each record is protected within its record sleeve by a white vellum anti-dust sleeve. All items are shipped brand-new and unopened in original packaging. Every record is shipped in original factory-applied shrink wrap and has never been touched by human hands."
         },
         {
@@ -60,7 +61,7 @@
             "album_name": "KOD",
             "vinyl_cover": "assets/img/vinyl/810760032230.jpg",
             "album_cover": "assets/img/vinyl/J-RpXIRsMCM_LP0032230.jpg",
-            "price": "22,10 €",
+            "price": "22,10",
             "overview": "Each record is protected within its record sleeve by a white vellum anti-dust sleeve. All items are shipped brand-new and unopened in original packaging. Every record is shipped in original factory-applied shrink wrap and has never been touched by human hands."
         },
         {
@@ -69,7 +70,7 @@
             "album_name": "After Hours",
             "vinyl_cover": "assets/img/vinyl/602508929908.jpg",
             "album_cover": "assets/img/vinyl/ETEfRzd-MCM_LP8929908.jpg",
-            "price": "36,11 €",
+            "price": "36,11",
             "overview": "Each record is protected within its record sleeve by a white vellum anti-dust sleeve. All items are shipped brand-new and unopened in original packaging. Every record is shipped in original factory-applied shrink wrap and has never been touched by human hands."
         },
         {
@@ -78,7 +79,7 @@
             "album_name": "GETAWAY",
             "vinyl_cover": "assets/img/vinyl/093624920168X.jpg",
             "album_cover": "assets/img/vinyl/093624920168.jpg",
-            "price": "27,26 €",
+            "price": "27,26",
             "overview": "Each record is protected within its record sleeve by a white vellum anti-dust sleeve. All items are shipped brand-new and unopened in original packaging. Every record is shipped in original factory-applied shrink wrap and has never been touched by human hands."
         },
         {
@@ -87,7 +88,7 @@
             "album_name": "PERCEPTION",
             "vinyl_cover": "assets/img/vinyl/602557886733.jpg",
             "album_cover": "assets/img/vinyl/XYi_yUtMMCM_LP7886733.jpg",
-            "price": "19,52 €",
+            "price": "19,52",
             "overview": "Each record is protected within its record sleeve by a white vellum anti-dust sleeve. All items are shipped brand-new and unopened in original packaging. Every record is shipped in original factory-applied shrink wrap and has never been touched by human hands."
         },
         {
@@ -96,7 +97,7 @@
             "album_name": "THANK U NEXT",
             "vinyl_cover": "assets/img/vinyl/1489599.jpg",
             "album_cover": "assets/img/vinyl/DH8Gjg9a602577476228.jpg",
-            "price": "42,37 €",
+            "price": "42,37",
             "overview": "Each record is protected within its record sleeve by a white vellum anti-dust sleeve. All items are shipped brand-new and unopened in original packaging. Every record is shipped in original factory-applied shrink wrap and has never been touched by human hands."
         },
         {
@@ -105,7 +106,7 @@
             "album_name": "FREE SPIRIT",
             "vinyl_cover": "assets/img/vinyl/190759193716X.jpg",
             "album_cover": "assets/img/vinyl/190759193716.jpg",
-            "price": "20,26 €",
+            "price": "20,26",
             "overview": "Each record is protected within its record sleeve by a white vellum anti-dust sleeve. All items are shipped brand-new and unopened in original packaging. Every record is shipped in original factory-applied shrink wrap and has never been touched by human hands."
         }
     ],
@@ -113,11 +114,12 @@
 
     "equip": [
         {
+            "id": 1,
             "brand": "Yamaha",
             "product": "Yamaha GT-5000 Platine pour Disques Vinyles",
             "angle": "assets/img/equip/yamaha-gt-5000-meilleur-prix-le-havre-rouen-fecamp-dieppe-76-caen-14-cherbourg-st-lo-50-evreux-27-normandie-paris-bretagneX.jpg",
             "front": "assets/img/equip/yamaha-gt-5000-meilleur-prix-le-havre-rouen-fecamp-dieppe-76-caen-14-cherbourg-st-lo-50-evreux-27-normandie-paris-bretagne.jpg",
-            "price": "7 690,00 €",
+            "price": "7690,00",
             "overview": "La GT-5000 , nouveauté 2020 chez Yamaha est une platine vinyle haut de gamme équipée d'une sortie symétrique permettant un traitement symétrique du signal, de la cellule jusqu’ aux enceintes, d'un bras court et rectiligne qui garantit la transparence et la clarté du son , d' un mécanisme sur mesure à entraînement par courroie (moteur synchrone CA) et d'un plateau en aluminium de 5 kg"
         },
         {
@@ -125,7 +127,7 @@
             "product": "Audio Technica AT-LP140XP Platine Vinyle",
             "angle": "assets/img/equip/audio-technica-at-lp140xc-meilleur-prix-le-havre-rouen-fecamp-dieppe-76-caen-14-evreux-27-st-lo-50-paris-seine-maritimeX.jpg",
             "front": "assets/img/equip/audio-technica-at-lp140xc-meilleur-prix-le-havre-rouen-fecamp-dieppe-76-caen-14-evreux-27-st-lo-50-paris-seine-maritime.jpg",
-            "price": "399,00 €",
+            "price": "399,00",
             "overview": "La platine professionnelle AT-LP140XP de Audio Technica , entièrement manuelle, est équipée d'un moteur à entraînement direct avec un couple élevé, d'un plateau moulé en fonte d’aluminium, amorti et anti résonnant afin d'assurer une rotation stable dans l’axe (à 33 1/3, 45 et 78 tours/minute) et d'un bras de lecture en forme de S avec réglages de la hauteur, de la force d’appui et le"
         },
         {
@@ -133,7 +135,7 @@
             "product": "Audio Technica AT-LPW30TK Platine Vinyle",
             "angle": "assets/img/equip/audio-technica-at-lpw30tk-meilleur-prix-havre-rouen-fecamp-dieppe-76-caen-14-evreux27-yvetot-st-lo-50-paris-normandie-bretagne.jpg",
             "front": "assets/img/equip/audio-technica-at-lpw30tk-meilleur-prix-havre-rouen-fecamp-dieppe-76-caen-14-evreux27-yvetot-st-lo-50-paris-normandie-bretagneX.jpg",
-            "price": "299,00 €",
+            "price": "299,00",
             "overview": "La platine vinyle AT-LPW30TK d' Audio Technica marque une nouvelle aire pour la marque spécialisée jusqu'ici dans la platine vinyle à entrainement direct de qualité et à prix accessible. La platine vinyle AT-LPW30TK d' Audio Technica possède , en effet , un entrainement par courroie."
         },
         {
@@ -141,7 +143,7 @@
             "product": "Audio Technica AT-LP5X Platine Vinyle",
             "angle": "assets/img/equip/audio-technica-at-lp5x-meilleur-prix-le-havre-rouen-fecamp-dieppe-76-caen-14-st-lo-50-evreux-27-paris-seine-maritime-normandieX.jpg",
             "front": "assets/img/equip/audio-technica-at-lp5x-meilleur-prix-le-havre-rouen-fecamp-dieppe-76-caen-14-st-lo-50-evreux-27-paris-seine-maritime-normandie.jpg",
-            "price": "399,00 €",
+            "price": "399,00",
             "overview": "Equilibre parfait entre technologie et élégance, les lignes contemporaines épurées de la platine AT-LP5 d' Audio Technica embelliront votre intérieur, tout en assurant des performances audio respectueuses du riche héritage analogique de la marque"
         },
         {
@@ -149,7 +151,7 @@
             "product": "Roksan Caspian RPM Contrôle de Vitesse pour Platine Xerxes",
             "angle": "assets/img/equip/roksan-rpm-meilleur-prix-le-havre-rouen-fecamp-dieppe-76-caen-14-cherbourg-st-lo-50-evreux-27-normandie-paris-seine-maritimeX.jpg",
             "front": "assets/img/equip/roksan-rpm-meilleur-prix-le-havre-rouen-fecamp-dieppe-76-caen-14-cherbourg-st-lo-50-evreux-27-normandie-paris-seine-maritime.jpg",
-            "price": "1 999,00 €",
+            "price": "1999,00",
             "overview": "Alimentation de référence externe pour les  platines Xerxes , le contrôle de vitesse RPM est doté d'un système de contrôle de vitesse à cristal de très haute qualité et d'une alimentation DS1.5 linéaire de référence, il maintient une stabilité de vitesse parfaite à 33 et 45 tr / min."
         },
         {
@@ -157,7 +159,7 @@
             "product": "Roksan Sara Bras pour Platine Vinyle",
             "angle": "assets/img/equip/roksan-sara-meilleur-prix-le-havre-rouen-fecamp-dieppe-76-caen-14-paris-st-lo-50-evreux-27-normandie-seine-maritimeX.jpg",
             "front": "assets/img/equip/roksan-sara-meilleur-prix-le-havre-rouen-fecamp-dieppe-76-caen-14-paris-st-lo-50-evreux-27-normandie-seine-maritime.jpg",
-            "price": "2 250,00 €",
+            "price": "2250,00",
             "overview": "Le Bras de lecture pour platine vinyle Sara de Roksan est de style uni-pivot , ce qui lui permet un excellent suivi de piste et une liberté de mouvement maximale. Il est porté par un axe en carbure de tungstène pour un mouvement tout en douceur avec un minimum de friction"
         },
         {
@@ -165,7 +167,7 @@
             "product": "Roksan Radius 7 Platine Vinyle",
             "angle": "assets/img/equip/roksan-radius-7-meilleur-prix-le-havre-rouen-dieppe-fecamp-76-caen-14-evreux-27-cherbourg-st-lo-50-normandie-breatgneX.jpg",
             "front": "assets/img/equip/roksan-radius-7-meilleur-prix-le-havre-rouen-dieppe-fecamp-76-caen-14-evreux-27-cherbourg-st-lo-50-normandie-breatgne.jpg",
-            "price": "2 500,00 €",
+            "price": "2500,00",
             "overview": "La platine vinyle Radius 7 de Roksan représente une combinaison étonnante de style et de technologie. Ses performances techniques et sa musicalité sont au nouveau niveau de son esthétique Les socles en acrylique de 20 mm d'épaisseur du Radius 7 ont un aspect de verre , ce qui est non seulement visuellement époustouflant, mais contribue à d'excellentes performances sonores."
         },
         {
@@ -173,7 +175,7 @@
             "product": "Roksan XPS 8 Contrôle de Vitesse pour Platine Xerxes",
             "angle": "assets/img/equip/roksan-xps-8-meilleur-prix-le-havre-rouen-dieppe-fecamp-76-caen-14-evreux-27-cherbourg-st-lo-50-normandie-breatgneX.jpg",
             "front": "assets/img/equip/roksan-xps-8-meilleur-prix-le-havre-rouen-dieppe-fecamp-76-caen-14-evreux-27-cherbourg-st-lo-50-normandie-breatgne.jpg",
-            "price": "599,00 €",
+            "price": "599,00",
             "overview": "Contrôle de vitesse d'entrée de gamme pour la platine Xerxes , le XPS 8 de Roksan délivre une tension de sortie très stable. Un indicateur lumineux LED lumineux affiche de différentes couleurs indique la vitesse. Un interrupteur sur le panneau avant permet de basculer facilement entre 33 et 45 tours/mn."
         }
     ],
@@ -181,87 +183,88 @@
 
     "merch": [
         {
+            "id": 2,
             "product": "The Incredible True Story Album Art Shirt",
             "shirt": "assets/img/merch/cOSIkZSGlo4.jpg",
             "ref": "assets/img/merch/Izropeo6lo1.jpg",
-            "price": "20,43 €",
+            "price": "20,43",
             "overview" : "Authentic Logic Merchandise. 100% Combed and Ring-Spun Cotton. The Incredible True Story Album Art Design. Black Logic Shirt"
         },
         {
             "product": "Wu-Tang Clan Official Logo Shirt",
             "shirt": "assets/img/merch/OmfQ7Kt049w_6f36ec97-5c9c-4860-affd-dc253c359d2e.jpg",
             "ref": "assets/img/merch/aZep678M49a.jpg",
-            "price": "20,43 €",
+            "price": "20,43",
             "overview" : "Official Wu-Tang Clan Merchandise. 100% Cotton. Iconic Yellow Wu-Tang Clan Official Logo Design. Black Wu-Tang Clan Shirt"
         },
         {
             "product": "Godfather Of Soul Shirt",
             "shirt": "assets/img/merch/AKWbJp1350w_e94cea9c-e81f-48e5-a4c2-523b84add26c.jpg",
             "ref": "assets/img/merch/XLGqbhU950-1.jpg",
-            "price": "20,43 €",
+            "price": "20,43",
             "overview" : "Official James Brown Merchandise. 100% Cotton. Godfather Of Soul Design. Black James Brown Shirt"
         },
         {
             "product": "Slick Rick 30th Anniversary Shirt",
             "shirt": "assets/img/merch/G9iBRgWM37541001-w.jpg",
             "ref": "assets/img/merch/a73kkTmu37541001-1.jpg",
-            "price": "20,43 €",
+            "price": "20,43",
             "overview" : "Authentic Slick Rick Merchandise. 100% Cotton. The Great Adventures of Slick Rick 30th Anniversary Design. Black Slick Rick Shirt"
         },
         {
             "product": "Turn Up The Crazy Geometric Art Shirt",
             "shirt": "assets/img/merch/FEAIbF08MAN-PAD-1008-w.jpg",
             "ref": "assets/img/merch/GcLcY16DMAN-PAD-1008-1.jpg",
-            "price": "21,25 €",
+            "price": "21,25",
             "overview" : "Authentic Panic At The Disco Merchandise. 100% Cotton. Exclamation Point Geometric Art Design. Black Panic At The Disco Shirt"
         },
         {
             "product": "MTV Unplugged Album Art Shirt (Reissue)",
             "shirt": "assets/img/merch/ZVcjoFtf38w_5f55e03a-facc-453a-8e25-6afdd1a97893.jpg",
             "ref": "assets/img/merch/cCg4h75x38-1_07b0d12d-7bc7-4c86-adc7-6dd4ef6b29ef.jpg",
-            "price": "21,25 €",
+            "price": "21,25",
             "overview" : "Official Nirvana Merch. 100% Cotton. MTV Unplugged Live in New York Concert Photo Design. Black MTV Unplugged Nirvana Shirt"
         },
         {
             "product": "Mellon Collie Infinite Sadness Album Art Shirt",
             "shirt": "assets/img/merch/KnXhz2RMSmash2.jpg",
             "ref": "assets/img/merch/KnXhz2RMSmash2.jpg",
-            "price": "20,43 €",
+            "price": "20,43",
             "overview" : "Official Mellon Collie Merchandise. 100% Airlume Combed and Ring-Spun Cotton. Mellon Collie Infinite Sadness Album Art Design. Navy Blue The Smashing Pumpkins Shirt"
         },
         {
             "product": "Dancing Bears Spiral Tie Dye Shirt",
             "shirt": "assets/img/merch/VLwrgzFw2w.jpg",
             "ref": "assets/img/merch/Vjrq5bTw2art.jpg",
-            "price": "22,89  €",
+            "price": "22,89 ",
             "overview" : "100% Official Grateful Dead Merchandise. 100% Cotton. Dancing Bears Spiral Design (Back Album Cover Art). Radial Tie Dye Grateful Dead Shirt"
         },
         {
             "product": "Greetings From Asbury Park Album Cover Art T-Shirt",
             "shirt": "assets/img/merch/IQO1ZfvLBruce_Springsteen_-_Asbury_-_Front.jpg",
             "ref": "assets/img/merch/BQwcZxxwBruce_Springsteen_-_Asbury_-_Front_Details.jpg",
-            "price": "19,61 €",
+            "price": "19,61",
             "overview" : "Official Bruce Springsteen Merch. Greetings From Asbury Park, N.J. Album Art. Teal Bruce Springsteen T-Shirt. 50% Cotton, 50% Polyester Heather "
         },
         {
             "product": "To The 5 Boroughs Subway Shirt",
             "shirt": "assets/img/merch/SiUlcJNJ41w_14ae01a3-d904-4403-9c84-94b65e37acab.jpg",
             "ref": "assets/img/merch/Hfq53mO841-1.jpg",
-            "price": "20,43 €",
+            "price": "20,43",
             "overview" : "Authentic Beastie Boys Merchandise100% Cotton. To The 5 Boroughs Design. Green Beastie Boys Shirt. "
         },
         {
             "product": "Rainbow Portraits T-Shirt",
             "shirt": "assets/img/merch/dUkADavM12white.jpg",
             "ref": "assets/img/merch/Cp4D9-xX12art_ab094308-8c47-4087-8055-4a7ba137cdef.jpg",
-            "price": "20,43 €",
+            "price": "20,43",
             "overview" : "Authentic Jimi Hendrix Merch. Rainbow Portrait Design. 100% Cotton. Black Jimi Hendrix Shirt"
         },
         {
             "product": "Ready to Die Album Cover Shirt",
             "shirt": "assets/img/merch/VSjHhhC2BIG_-_Notorious_BIG_Baby_-_Front.jpg",
             "ref": "assets/img/merch/fEluJzsgBIG_-_Notorious_BIG_Baby_-_Front_Details.jpg",
-            "price": "19,61 €",
+            "price": "19,61",
             "overview" : "Official The Notorious BIG Merchandise. 100% Cotton. Black The Notorious BIG Shirt. Preshrunk, Fits True To Size"
         }
     ]
