@@ -1,5 +1,56 @@
-*{
-    margin:0 !important;
-    padding:0 !important;
-    box-sizing: border-box !important;
+#myBasket {
+    color: #0F80A0;
+    font-size: 1.8em;
+    font-family: sabana;
+    padding-top: 9%;
+}
+
+#iBasket {
+    padding-top: 8%;
+}
+
+.modal-header {
+    background-color: #EBBABA;
+}
+
+.modal-body {
+    font-size: 1.2em;
+    font-family: sabana;
+}
+
+.modal-footer {
+    background-color: #976C6C;
+    font-family: sabana;
+}
+
+#validBtn {
+    background-color: #B48857 !important;
+    border: 1px solid #0F80A0 !important;
+    border-radius: 10px !important;
+}
+
+#validBtn:hover {
+    background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+    background-color: #bab1ba;
+}
+
+#validBtn:active {
+    position: relative;
+    top: 1px;
+}
+
+#closeBtn {
+    background-color: #FFCB92 !important;
+    border: 1px solid #0F80A0 !important;
+    border-radius: 10px !important;
+}
+
+#closeBtn:hover {
+    background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+    background-color: #bab1ba;
+}
+
+#closeBtn:active {
+    position: relative;
+    top: 1px;
 }
