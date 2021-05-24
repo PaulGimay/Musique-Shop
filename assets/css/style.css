@@ -9,16 +9,16 @@
     padding-top: 8%;
 }
 
-.modal-header {
+.headerPaul {
     background-color: #EBBABA;
 }
 
-.modal-body {
+.bodyPaul {
     font-size: 1.2em;
     font-family: sabana;
 }
 
-.modal-footer {
+.footerPaul {
     background-color: #976C6C;
     font-family: sabana;
 }
