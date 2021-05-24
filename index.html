@@ -10,50 +10,125 @@
     <title>Vinyl Buster</title>
 </head>
 
-<body>
+<body data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
 
     <div class="container-fluid">
         <!-------------------------------------------------- HEADER -------------------------------------------------->
-        <div class="row">
-            <div class="col">
+        <div class="row p-0 bgBright">
+            <div class="col p-0 headerheight position-relative">
+
+                <div class="row p-0 m-0">
+                    <div class="col logoBg p-0 m-0 position-relative gridCenter">
+                        <img class="logoHeight position-absolute logoPlacement" src="/assets/img/logo/LOGO3.png" alt="">
+                    </div>
+                </div>
+
+                <div class="row p-0 m-0">
+                    <div class="col">
+
+                        <div id="carouselExampleSlidesOnly" class="carousel slide  position-absolute bottom-0" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="/assets/img/vinyl/damnVinyl.jpg" class="d-block w-100" alt="/assets/img/vinyl/damnVinyl.jpg">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="/assets/img/vinyl/damnVinyl.jpg" class="d-block w-100" alt="/assets/img/vinyl/damnVinyl.jpg">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="/assets/img/vinyl/damnVinyl.jpg" class="d-block w-100" alt="/assets/img/vinyl/damnVinyl.jpg">
+                              </div>
+                            </div>
+                          </div>
+
+                    </div>
+                </div>
+                
 
             </div>
         </div>
 
         <!-------------------------------------------------- NAVBAR -------------------------------------------------->
-        <div class="row">
-            <div class="col">
+
+        <div class="row sticky-top p-0 shadowNavbar">
+            <div class="col p-0">
+
+                <nav id="navbar-example2" class="navbar navbar-light bg-light px-3 navbarHeight fontStructure">
+                    <a class="navbar-brand navlogo d-none d-sm-block" href="#"></a>
+                    <ul class="nav nav-pills">
+                      <li class="nav-item Pinkactive">
+                        <a class="nav-link text-dark Pinkhover" href="#scrollspyHeading1">Vinyl</a>
+                      </li>
+                      <li class="nav-item Blueactive">
+                        <a class="nav-link text-dark Bluehover" href="#scrollspyHeading2">Hi-Fi</a>
+                      </li>
+                      <li class="nav-item Orangeactive">
+                        <a class="nav-link text-dark Orangehover" href="#scrollspyHeading3">Merch</a>
+                      </li>
+                    </ul>
+                    <a class="navbar-brand" href="#">Cart</a>
+                  </nav>
 
             </div>
         </div>
-
-
 
         <!-------------------------------------------------- VINYL -------------------------------------------------->
-        <div class="row">
+
+        <div id="scrollspyHeading1" class="row bgPink shadowInside">
             <div class="col">
 
+                <div class="row px-sm-5 pt-5">
+                    <div class="col fs-1 fontStructure text-white marginTop">Vinyl</div>
+                </div>
+
+                <div class="row px-sm-5 py-5">
+                    <div class="VINYL col">
+        
+        
+
+        
+                    </div>
+                </div>
             </div>
         </div>
-
 
         <!-------------------------------------------------- HI-FI -------------------------------------------------->
-        <div class="row">
+
+        <div id="scrollspyHeading2" class="row bgBlue shadowInside">
             <div class="col">
 
+                <div class="row px-sm-5 pt-5">
+                    <div class="col fs-1 fontStructure text-white marginTop">Hi-Fi</div>
+                </div>
+
+                <div class="row px-sm-5 py-5">
+                    <div class="HIFI col">
+
+
+        
+                    </div>
+                </div>
             </div>
         </div>
-
 
         <!-------------------------------------------------- MERCH -------------------------------------------------->
-        <div class="row">
+
+        <div id="scrollspyHeading3" class="row bgOrange shadowInside">
             <div class="col">
 
+                <div class="row px-sm-5 pt-5">
+                    <div class="col fs-1 fontStructure text-white marginTop">Merch</div>
+                </div>
+
+                <div class="row px-sm-5 py-5">
+                    <div class="MERCH col">
+
+
+        
+                    </div>
+                </div>
             </div>
         </div>
-
-
-
+        
         <!-------------------------------------------------- CART -------------------------------------------------->
         <!-- Button trigger modal -->
         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#shopModal">
