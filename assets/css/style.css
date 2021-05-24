@@ -183,6 +183,12 @@
 
 /*************************** CSS KHALISSA *****************************/
 
+@font-face {
+    font-family: "Logo-font";
+    src: url("../font/sabana.otf");
+    
+}
+
 .footer {
     background-color: black;
     font-family: 'Content-font'
@@ -193,13 +199,13 @@
     font-size: 150%;
 }
 
-.btn {
+.darkBtn {
     background-color: black;
     color: white;
     border: none;
 }
 
-.btn:hover {
+.darkBtn:hover {
     color: #FFCB92;
     font-weight: bold;
     border: none;
@@ -216,11 +222,6 @@
 
 .modal-body {
     text-align: left;
-}
-
-.close-btn {
-    background-color: black;
-    color: white;
 }
 
 .websiteCopyright {
