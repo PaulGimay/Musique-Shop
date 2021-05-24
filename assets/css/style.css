@@ -180,3 +180,51 @@
 .handCursor{
     cursor: pointer;
 }
+
+/*************************** CSS KHALISSA *****************************/
+
+.footer {
+    background-color: black;
+    font-family: 'Content-font'
+}
+
+.text-uppercase {
+    font-family: 'Structure-font';
+    font-size: 150%;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.btn:hover {
+    color: #FFCB92;
+    font-weight: bold;
+    border: none;
+}
+
+.socialMedia {
+    color: white;
+}
+
+.socialMedia:hover {
+    color: #FFCB92;
+
+}
+
+.modal-body {
+    text-align: left;
+}
+
+.close-btn {
+    background-color: black;
+    color: white;
+}
+
+.websiteCopyright {
+    font-family: 'Sabana';
+    font-size: 300%;
+    text-decoration: none;
+}
