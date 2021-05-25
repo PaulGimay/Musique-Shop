@@ -1,4 +1,4 @@
-const FileJson = 'https://paulgimay.github.io/Musique-Shop/assets/json/myJSON.json'
+const FileJson = 'http://ecommerce/assets/json/myJson.json'
 
 fetch(FileJson)
 .then(resp => resp.json())
@@ -37,7 +37,7 @@ fetch(FileJson)
                         <div class="row"><div data-artist="" class="fontContent"></div></div>
                         <div class="row"><div data-vinyl-namehtml="" class="fw-bold fontContent"></div></div>
                         <div class="row"><div data-price-vinylhtml="" class="fs-5 mt-2 mb-1 fontContent text-end"></div></div>
-                        <div class="row w-100"><div data-add="" class="addvinyl text-center"><button type="button" class="fontContent text-white cardBtnRadius btn btn-sm bgPinkDark">Add to Cart</button></div></div>
+                        <div class="row w-100"><div data-add="" class="addvinyl text-center"><button type="button" class="fontContent text-white cardBtnRadius btn btn-sm bgPinkDark">Ajouter au Panier</button></div></div>
                 </div>
             </div>
         </div>
@@ -46,7 +46,7 @@ fetch(FileJson)
         <div class="modal fade datavinylmodal" id="" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
-              <div class="modal-header">
+              <div class="modal-header p-0">
                   <img data-img-vinylmodal="" src="" class="cardRadius w-100">
               </div>
               <div class="modal-body">
@@ -58,7 +58,7 @@ fetch(FileJson)
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary cardBtnRadius" data-bs-dismiss="modal">Close</button>
-                <button data-add="" type="button" class="addmodal fontContent text-white cardBtnRadius btn bgPinkDark">Add to Cart</button>
+                <button data-add="" type="button" class="addmodal fontContent text-white cardBtnRadius btn bgPinkDark">Ajouter au Panier</button>
               </div>
             </div>
           </div>
@@ -96,7 +96,7 @@ fetch(FileJson)
         Datavinylmodal[i].dataset.name = item.vinyl_name
         Datavinylmodal[i].dataset.price = item.price
         Datavinylmodal[i].dataset.img = item.album_cover
-        Imgsvinylmodal[i].src = item.vinyl_cover
+        Imgsvinylmodal[i].src = item.album_cover
         Artistmodal[i].innerHTML = item.artist
         VinylHTMLmodal[i].innerHTML = item.vinyl_name
         PricevinylHTMLmodal[i].innerHTML = item.price + ' €'
@@ -136,7 +136,7 @@ HIFIcolCARD.forEach(element=>{
                     <div class="row"><div data-brand-equip="" class="fontContent"></div></div>
                     <div class="row"><div data-product-equiphtml="" class="fw-bold fontContent"></div></div>
                     <div class="row"><div data-price-equiphtml="" class="fs-5 mt-2 mb-1 fontContent text-end"></div></div>
-                    <div class="row w-100"><div data-add="" class="addequip text-center"><button type="button" class="fontContent text-white cardBtnRadius btn btn-sm bgBlueDark">Add to Cart</button></div></div>
+                    <div class="row w-100"><div data-add="" class="addequip text-center"><button type="button" class="fontContent text-white cardBtnRadius btn btn-sm bgBlueDark">Ajouter au Panier</button></div></div>
                 </div>
             </div>
         </div>
@@ -158,7 +158,7 @@ HIFIcolCARD.forEach(element=>{
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary cardBtnRadius" data-bs-dismiss="modal">Close</button>
-            <button data-add="" type="button" class="addequipmodal fontContent text-white cardBtnRadius btn bgBlueDark">Add to Cart</button>
+            <button data-add="" type="button" class="addequipmodal fontContent text-white cardBtnRadius btn bgBlueDark">Ajouter au Panier</button>
           </div>
         </div>
       </div>
@@ -235,7 +235,7 @@ MERCHcolCARD.forEach(element=>{
                 <div class="card-body p-1">
                     <div class="row"><div data-product-merchhtml="" class="fw-bold fontContent"></div></div>
                     <div class="row"><div data-price-merchhtml="" class="fs-5 mt-2 mb-1 fontContent text-end"></div></div>
-                    <div class="row w-100"><div data-add="" class="addmerch text-center"><button type="button" class="fontContent text-white cardBtnRadius btn btn-sm bgOrangeDark">Add to Cart</button></div></div>
+                    <div class="row w-100"><div data-add="" class="addmerch text-center"><button type="button" class="fontContent text-white cardBtnRadius btn btn-sm bgOrangeDark">Ajouter au Panier</button></div></div>
                 </div>
             </div>
         </div>
@@ -256,7 +256,7 @@ MERCHcolCARD.forEach(element=>{
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary cardBtnRadius" data-bs-dismiss="modal">Close</button>
-            <button data-add="" type="button" class="addmerchmodal fontContent text-white cardBtnRadius btn bgOrangeDark">Add to Cart</button>
+            <button data-add="" type="button" class="addmerchmodal fontContent text-white cardBtnRadius btn bgOrangeDark">Ajouter au Panier</button>
           </div>
         </div>
       </div>
@@ -339,6 +339,7 @@ AllCol.forEach((element,i) => {
                         console.table(Cart)
                         total = Math.round( (total + parseFloat(element[2])) * 100) / 100
                         console.log(total)
+                        innerTotal.innerHTML = 'Total : ' + total + ' €'
                     }
 
                 })
@@ -356,6 +357,8 @@ AllCol.forEach((element,i) => {
                         console.table(Cart)
                         total = Math.round((total + parseFloat(idParentOfBtn.dataset.price)) * 100) / 100
                         console.log(total)
+                        innerTotal.innerHTML = 'Total : ' + total + ' €'
+
                     }
                 
             } else { // Première fois que l'on arrive dans le panier (vide)
@@ -372,6 +375,7 @@ AllCol.forEach((element,i) => {
 
                 total = parseFloat(idParentOfBtn.dataset.price)
                 console.log(total)
+                innerTotal.innerHTML = 'Total : ' + total + ' €'
 
             }
 
@@ -379,8 +383,8 @@ AllCol.forEach((element,i) => {
 
             /************************ GENERATION HTML DU PANIER ***************************/
 
-            while(myrow2.hasChildNodes()){
-                myrow2.removeChild(myrow2.firstChild)
+            while(innerCart.hasChildNodes()){
+                innerCart.removeChild(innerCart.firstChild)
             }            
 
             Cart.forEach((element,i) => {
@@ -388,20 +392,23 @@ AllCol.forEach((element,i) => {
 
                 let row = document.createElement('div')
                 row.classList.add('row')
-                myrow2.append(row)
+                innerCart.append(row)
     
                 row.insertAdjacentHTML('afterbegin',
                     `
-                <div data-cart-item="${element[0]}" data class="row">
-                <div class="col d-flex justify-content-around">
-                    <div><img src="${element[4]}"></div>
-                    <div data-cart-name="${element[1]}">${element[1]}</div>
-                    <div data-cart-price="${element[2]}">${element[2]}</div>
-                    <div data-cart-qt-id="${element[0]}" data-cart-qt="${element[3]}">${element[3]}</div>
-                    <div><button data-plus="${element[0]}">+</button><button data-minus="${element[0]}">-</button></div>
-                    <div><button data-trash="${element[0]}">TRASH</button></div>
-
-                </div>
+                <div data-cart-item="${element[0]}" class="row mb-1">
+                    <div class="col-3">
+                        <img src="${element[4]}" class="w-100">
+                    </div>
+                    <div class="col-4 fs-5" data-cart-name="${element[1]}">${element[1]}</div>
+                    <div class="col-5">
+                        <div class="row">
+                            <div class="col fs-5" data-cart-price="${element[2]}">${element[2]}€</div>
+                            <div class="col fs-5" data-cart-qt-id="${element[0]}" data-cart-qt="${element[3]}">${element[3]}</div>
+                            <div class="col"><button data-plus="${element[0]}">+</button><button data-minus="${element[0]}">-</button></div>
+                            <div class="col"><button data-trash="${element[0]}">TRASH</button></div>
+                        </div>
+                    </div>
                 </div>
                 `
                 )
@@ -425,6 +432,7 @@ AllCol.forEach((element,i) => {
                         // console.table(element)
                         console.table(Cart)
                         console.log(total)
+                        innerTotal.innerHTML = 'Total : ' + total + ' €'
 
                     } else {
                         alert('Vous ne pouvez achetez plus de 10 fois le même article')
@@ -443,6 +451,7 @@ AllCol.forEach((element,i) => {
                         console.table(Cart)
                         total = Math.round( (total - parseFloat(element[2])) * 100) / 100
                         console.log(total)
+                        innerTotal.innerHTML = 'Total : ' + total + ' €'
                         
                     } else {
                         let minusBtn = document.querySelector(`[data-minus=${CSS.escape(element[0])}]`)
@@ -454,6 +463,7 @@ AllCol.forEach((element,i) => {
                         total = Math.round( (total - parseFloat(element[2])) * 100) / 100
                         console.table(Cart)
                         console.log(total)
+                        innerTotal.innerHTML = 'Total : ' + total + ' €'
                     }
                 })
             })
@@ -474,6 +484,7 @@ AllCol.forEach((element,i) => {
                 })
                 console.log(Cart)
                 console.log(total)
+                innerTotal.innerHTML = 'Total : ' + total + ' €'
 
 
               })  
