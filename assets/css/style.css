@@ -1,4 +1,5 @@
 /*************************** CSS PAUL *****************************/
+
 #myBasket {
     color: #0F80A0;
     font-size: 1.8em;
@@ -11,7 +12,7 @@
 }
 
 .headerPaul {
-    background-color: #EBBABA;
+    background-color: #F4F0EF
 }
 
 .bodyPaul {
@@ -20,13 +21,13 @@
 }
 
 .footerPaul {
-    background-color: #976C6C;
+    background-color: #F4F0EF;
     font-family: sabana;
 }
 
 #validBtn {
-    background-color: #B48857 !important;
-    border: 1px solid #0F80A0 !important;
+    background-color: black!important;
+    border: 1px solid white!important;
     border-radius: 10px !important;
 }
 
@@ -56,7 +57,9 @@
     top: 1px;
 }
 
+
 /*************************** CSS HABIB *****************************/
+
 @font-face {
     font-family: 'Structure-font';
     src: url("../font/Gobold\ Thin.otf");
@@ -67,66 +70,67 @@
     src: url("../font/Cardium\ A\ Regular.otf");
 }
 
-.fontStructure{
+.fontStructure {
     font-family: Structure-font;
 }
 
-.fontContent{
+.fontContent {
     font-family: Content-font;
 }
 
-.cardRadius{
+.cardRadius {
     border-radius: 2px !important;
 }
-.cardBtnRadius{
+
+.cardBtnRadius {
     border-radius: 30px;
 }
 
-.bgPink{
+.bgPink {
     background-color: #EBBABA;
 }
-.bgPinkDark{
+
+.bgPinkDark {
     background-color: #976C6C;
 }
-.bgBlue{
+
+.bgBlue {
     background-color: #63C1DB;
 }
-.bgBlueDark{
+
+.bgBlueDark {
     background-color: #0F80A0;
 }
-.bgOrange{
+
+.bgOrange {
     background-color: #FFCB92;
 }
-.bgOrangeDark{
+
+.bgOrangeDark {
     background-color: #B48857;
 }
-.bgBright{
+
+.bgBright {
     background-color: #171717;
 }
-.bgDark{
+
+.bgDark {
     background-color: #868283;
 }
 
-
-.shadowcard{
-    box-shadow:
-    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-    0 12.5px 10px rgba(0, 0, 0, 0.06),
-    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-    0 100px 80px rgba(0, 0, 0, 0.12)
-    ;
+.shadowcard {
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
 }
-.shadowInside{
+
+.shadowInside {
     box-shadow: inset 4px 4px 100px rgba(0, 0, 0, 0.25);
-    
 }
 
-.shadowNavbar{
+.shadowNavbar {
     box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.7);
 }
-.headerheight{
+
+.headerheight {
     height: calc(100vh - 101px);
 }
 
@@ -134,29 +138,31 @@
     .headerheight {
         height: calc(100vh - 101px);
     }
-  }
+}
 
-
-.logoBg{
+.logoBg {
     background: linear-gradient(180deg, #000000 0%, #171717 100%);
-
     height: 200px;
 }
-.gridCenter{
+
+.gridCenter {
     display: grid;
     place-items: center;
 }
-.navbarHeight{
+
+.navbarHeight {
     height: 100px;
 }
-.logoHeight{
+
+.logoHeight {
     width: 30vh;
 }
-.logoPlacement{
+
+.logoPlacement {
     top: 50%;
 }
-.navlogo{
 
+.navlogo {
     background-image: url(/assets/img/logo/LOGO.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -164,29 +170,32 @@
     width: 180px;
 }
 
-.marginTop{
+.marginTop {
     margin-top: 100px;
 }
-.Pinkhover:hover  {
+
+.Pinkhover:hover {
     background-color: #EBBABA !important;
 }
-.Bluehover:hover  {
+
+.Bluehover:hover {
     background-color: #63C1DB !important;
 }
-.Orangehover:hover  {
+
+.Orangehover:hover {
     background-color: #FFCB92 !important;
 }
 
-.handCursor{
+.handCursor {
     cursor: pointer;
 }
+
 
 /*************************** CSS KHALISSA *****************************/
 
 @font-face {
     font-family: "Logo-font";
     src: url("../font/sabana.otf");
-    
 }
 
 .footer {
@@ -217,7 +226,6 @@
 
 .socialMedia:hover {
     color: #FFCB92;
-
 }
 
 .modal-body {
