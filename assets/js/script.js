@@ -1,4 +1,4 @@
-const FileJson = 'http://ecommerce/assets/json/myJson.json'
+const FileJson = 'https://paulgimay.github.io/Musique-Shop//assets/json/myJson.json'
 
 fetch(FileJson)
 .then(resp => resp.json())
